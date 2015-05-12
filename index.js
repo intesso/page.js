@@ -443,7 +443,7 @@
 
   function Route(path, options) {
     options = options || {};
-    this.path = (path === '*') ? '(.*)' : path;
+    this.path = path;
     this.method = 'GET';
     this.regexp = pathtoRegexp(this.path,
       this.keys = [],
@@ -494,10 +494,13 @@
 
     for (var i = 1, len = m.length; i < len; ++i) {
       var key = keys[i - 1];
-      var val = decodeURLEncodedURIComponent(m[i]);
-      if (val !== undefined || !(hasOwnProperty.call(params, key.name))) {
-        params[key.name] = val;
+      if (key) {
+        var val = decodeURLEncodedURIComponent(m[i]);
+        if (val !== undefined || !(hasOwnProperty.call(params, key.name))) {
+          params[key.name] = val;
+        }        
       }
+
     }
 
     return true;

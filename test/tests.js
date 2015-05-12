@@ -366,7 +366,7 @@
 
         describe('not found', function() {
           it('should invoke the not found callback', function(done) {
-            page(function() {
+            page('*', function() {
               done();
             });
             page('/whathever');
