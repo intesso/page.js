@@ -16,21 +16,18 @@ page('*', notfound)
 page()
 ```
 
+## note on this fork
+
+> this fork uses the same `path-to-regexp`, `express` is using as well.
+>
+> other than that, it is useless...
+
+*what follows is the original documentation 1.6.3.*
+
 ## Installation
 
-  There are multiple ways to install `page.js`.
-  With package managers:
-
   ```bash
-  $ npm install page # for browserify
-  $ component install visionmedia/page.js
-  $ bower install visionmedia/page.js
-  ```
-
-  Via CDN and script tag:
-
-  ```html
-  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+  $ npm install page.js # for browserify
   ```
 
 ## Running examples

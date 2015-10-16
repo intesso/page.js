@@ -1,3 +1,14 @@
+4.11.2 / 2015-10-16
+==================
+* follows the `express` version and `path-to-regexp` version
+* "path-to-regexp": "0.1.3"
+
+
+1.6.4 / 2015-10-09
+==================
+
+* fix wildcard route support (update path-to-regexp to v1.2.1)
+
 1.6.3 / 2015-04-19
 ==================
 

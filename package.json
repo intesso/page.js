@@ -1,7 +1,7 @@
 {
-  "name": "page",
+  "name": "page.js",
   "description": "Tiny client-side router",
-  "version": "1.6.3",
+  "version": "4.11.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/visionmedia/page.js.git"
@@ -32,11 +32,12 @@
     "jshint": "^2.5.10",
     "mocha": "^2.0.1",
     "mocha-lcov-reporter": "0.0.1",
-    "serve": "*",
-    "should": "*"
+    "serve": "^1.4.0",
+    "should": "^7.1.0"
   },
   "files": [
     "index.js",
     "page.js"
-  ]
+  ],
+  "license": "MIT"
 }
