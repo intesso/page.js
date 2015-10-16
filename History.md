@@ -1,3 +1,8 @@
+4.13.3 / 2015-10-16
+==================
+* follows the `express` version and `path-to-regexp` version
+* "path-to-regexp": "0.1.7"
+
 4.11.2 / 2015-10-16
 ==================
 * follows the `express` version and `path-to-regexp` version
